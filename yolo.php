@@ -21,7 +21,7 @@
                 document.getElementById("twitter").innerHTML = xhttp.responseText;
             }
         };
-        xhttp.open("GET", "http://nodeappl.azurewebsites.net    ", true);
+        xhttp.open("GET", "http://nodeappl.azurewebsites.net/", true);
         xhttp.send();
     }
 

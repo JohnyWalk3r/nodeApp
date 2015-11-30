@@ -9,6 +9,10 @@
 <header>
     <h1>Header Div</h1>
 </header>
+
+<main>
+    <h2> Main content </h2>
+</main>
 <script>
     window.onload = function() {
         var xhttp = new XMLHttpRequest();
@@ -22,10 +26,6 @@
     }
 
 </script>
-
-<main>
-    <h2> Main content </h2>
-</main>
 <aside id="twitter" >
 
 </aside>
